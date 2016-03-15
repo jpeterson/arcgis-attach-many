@@ -22,7 +22,7 @@ and requests must include the following parameters:
 | parameter     | details |
 |---------------|---------|
 | `uploads`     | The name of the `<input>` element containing the files you wish to upload |
-| `featureUrl`  | The URL of the Feature you wish to attach files to         |
+| `featureUrl`  | The URL of the feature to which you wish to attach files                  |
 
 ## Troubleshooting
-Check out the HTML in `test/form.html` for a simple example.
+Check out the HTML in `public/form.html` for a simple example.

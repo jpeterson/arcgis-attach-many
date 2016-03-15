@@ -1,0 +1,15 @@
+{
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "es6": true,
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": [2, "never"],
+    "max-len": [2, 150, 2, {"ignoreUrls": true}],
+    "no-unused-vars": [2, { "args": "none" }],
+    "arrow-body-style": 0,
+    "no-console": 0
+  }
+}

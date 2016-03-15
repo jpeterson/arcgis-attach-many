@@ -1,0 +1,20 @@
+{
+  "name": "arcgis-attach-many",
+  "version": "0.1.0",
+  "description": "Attach many files to an ArcGIS Feature Service",
+  "main": "server.js",
+  "scripts": {},
+  "author": "Josh Peterson",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.7.1",
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "hapi": "^13.2.1",
+    "inert": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint-config-airbnb": "^6.1.0"
+  }
+}

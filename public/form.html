@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <style>
+      body {
+        padding: 30px;
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Test Page</h2>
+    <p>
+      Enter the url of a feature in an ArcGIS Server FeatureService and select one or more files to attach.
+    </p>
+    <form method="post" action="/submit" enctype="multipart/form-data">
+      <p>
+        <label for="featureUrl">Feature URL:</label><br />
+        <input name="featureUrl" type="text" style="width:600px" placeholder="http://<domain>/arcgis/rest/services/<serviceName>/FeatureServer/<layerId>/<featureId>" />
+      </p>
+      <p>
+        <label for="uploads">Files:</label><br />
+        <input name="uploads" type="file" multiple />
+      </p>
+      <p>
+        <input type="submit" label="Submit" />
+      </p>
+    </form>
+  </body>
+</html>
